@@ -1,5 +1,6 @@
 import { Counter } from './components/Counter'
 import { CounterReducer } from './components/CounterReducer'
+import { Form } from './components/Form'
 import { ParentTimer } from './components/ParentTimer'
 import { User } from './components/User'
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
       <h2>useReducer</h2>
       <hr />
       <CounterReducer />
+      <h2>customHooks</h2>
+      <hr />
+      <Form />
     </>
   )
 }
